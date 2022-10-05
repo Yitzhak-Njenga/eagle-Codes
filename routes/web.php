@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 Route::post('/contact',[\App\Http\Controllers\ContactController::class,'index']);
+Route::get('/register',[\App\Http\Controllers\UserController::class,'index']);
 
